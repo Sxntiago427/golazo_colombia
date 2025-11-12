@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOLazo Colombia - Resultados Fútbol Liga BetPlay</title>
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Oswald:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Logo Golazo Colombia" class="header-logo">
+                <h1><a href="#" class="logo">GOLazo Colombia</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#live-matches">En Vivo</a></li>
+                    <li><a href="#recent-results">Resultados Recientes</a></li>
+                    <li><a href="#standings">Posiciones</a></li>
+                    <li><a href="#upcoming-matches">Próximos Partidos</a></li>
+                    <li><a href="#teams">Equipos</a></li>
+                </ul>
+            </nav>
+            <button class="mobile-menu-toggle">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container">
+                <h2>Toda la emoción de la Liga BetPlay en un solo lugar</h2>
+                <p>Mantente al día con los resultados, partidos en vivo y la tabla de posiciones del fútbol colombiano.</p>
+                <button class="btn">Ver Partidos en Vivo</button>
+            </div>
+        </section>
+
+        <section id="standings" class="standings-section">
+            <div class="container">
+                <h2>Tabla de Posiciones - Liga BetPlay</h2>
+                <div class="table-responsive">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Equipo</th>
+                                <th>PJ</th>
+                                <th>PG</th>
+                                <th>PE</th>
+                                <th>PP</th>
+                                <th>GF</th>
+                                <th>GC</th>
+                                <th>DIF</th>
+                                <th>PTS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="top-8-team">
+                                <td>1</td>
+                                <td><img src="images/Medellin.png" alt="Independiente Medellín Logo"> Independiente Medellín</td>
+                                <td>19</td>
+                                <td>11</td>
+                                <td>4</td>
+                                <td>4</td>
+                                <td>43</td>
+                                <td>28</td>
+                                <td>+15</td>
+                                <td>37</td>
+                            </tr>
+                            <tr class="top-8-team">
+                                <td>2</td>
+                                <td><img src="images/Nacional.webp" alt="Atlético Nacional Logo"> Atlético Nacional</td>
+                                <td>19</td>
+                                <td>10</td>
+                                <td>7</td>
+                                <td>2</td>
+                                <td>37</td>
+                                <td>22</td>
+                                <td>+15</td>
+                                <td>37</td>
+                            </tr>
+                            <tr class="top-8-team">
+                                <td>3</td>
+                                <td><img src="images/Bucaramanga.jpg" alt="Atlético Bucaramanga Logo"> Atlético Bucaramanga</td>
+                                <td>19</td>
+                                <td>11</td>
+                                <td>4</td>
+                                <td>4</td>
+                                <td>31</td>
+                                <td>17</td>
+                                <td>+14</td>
+                                <td>37</td>
+                            </tr>
+                            <tr class="top-8-team">
+                                <td>4</td>
+                                <td><img src="images/tolima.png" alt="Deportes Tolima Logo"> Deportes Tolima</td>
+                                <td>19</td>
+                                <td>11</td>
+                                <td>2</td>
+                                <td>6</td>
+                                <td>27</td>
+                                <td>16</td>
+                                <td>+11</td>
+                                <td>35</td>
+                            </tr>
+                            <tr class="top-8-team">
+                                <td>5</td>
+                                <td><img src="images/Fortaleza.png" alt="Fortaleza CEIF Logo"> Fortaleza CEIF</td>
+                                <td>19</td>
+                                <td>9</td>
+                                <td>8</td>
+                                <td>2</td>
+                                <td>25</td>
+                                <td>17</td>
+                                <td>+8</td>
+                                <td>35</td>
+                            </tr>
+                            <tr class="top-8-team">
+                                <td>6</td>
+                                <td><img src="images/Junior.png" alt="Junior FC Logo"> Junior FC</td>
+                                <td>19</td>
+                                <td>9</td>
+                                <td>5</td>
+                                <td>5</td>
+                                <td>33</td>
+                                <td>24</td>
+                                <td>+9</td>
+                                <td>32</td>
+                            </tr>
+                            <tr class="top-8-team">
+                                <td>7</td>
+                                <td><img src="images/America.png" alt="América de Cali Logo"> América de Cali</td>
+                                <td>19</td>
+                                <td>8</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>23</td>
+                                <td>16</td>
+                                <td>+7</td>
+                                <td>29</td>
+                            </tr>
+                            <tr class="top-8-team">
+                                <td>8</td>
+                                <td><img src="images/Alianza.png" alt="Alianza FC Logo"> Alianza FC</td>
+                                <td>19</td>
+                                <td>8</td>
+                                <td>5</td>
+                                <td>6</td>
+                                <td>24</td>
+                                <td>21</td>
+                                <td>+3</td>
+                                <td>29</td>
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td><img src="images/Santafe.png" alt="Independiente Santa Fe Logo"> Independiente Santa Fe</td>
+                                <td>19</td>
+                                <td>7</td>
+                                <td>7</td>
+                                <td>5</td>
+                                <td>20</td>
+                                <td>17</td>
+                                <td>+3</td>
+                                <td>28</td>
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td><img src="images/Aguilas.webp" alt="Águilas Doradas Logo"> Águilas Doradas</td>
+                                <td>19</td>
+                                <td>7</td>
+                                <td>6</td>
+                                <td>6</td>
+                                <td>28</td>
+                                <td>25</td>
+                                <td>+3</td>
+                                <td>27</td>
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td><img src="images/Oncecaldas.jpg" alt="Once Caldas Logo"> Once Caldas</td>
+                                <td>19</td>
+                                <td>7</td>
+                                <td>5</td>
+                                <td>7</td>
+                                <td>20</td>
+                                <td>23</td>
+                                <td>-3</td>
+                                <td>26</td>
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td><img src="images/Llaneros.png" alt="Llaneros FC Logo"> Llaneros FC</td>
+                                <td>19</td>
+                                <td>7</td>
+                                <td>4</td>
+                                <td>8</td>
+                                <td>17</td>
+                                <td>22</td>
+                                <td>-5</td>
+                                <td>25</td>
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td><img src="images/millonarios.png" alt="Millonarios Logo"> Millonarios</td>
+                                <td>19</td>
+                                <td>6</td>
+                                <td>5</td>
+                                <td>8</td>
+                                <td>21</td>
+                                <td>25</td>
+                                <td>-4</td>
+                                <td>23</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td><img src="images/DeportivoCali.png" alt="Deportivo Cali Logo"> Deportivo Cali</td>
+                                <td>19</td>
+                                <td>5</td>
+                                <td>5</td>
+                                <td>9</td>
+                                <td>21</td>
+                                <td>27</td>
+                                <td>-6</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td><img src="images/UnionMagdalena.png" alt="Unión Magdalena Logo"> Unión Magdalena</td>
+                                <td>19</td>
+                                <td>5</td>
+                                <td>3</td>
+                                <td>11</td>
+                                <td>20</td>
+                                <td>32</td>
+                                <td>-12</td>
+                                <td>18</td>
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td><img src="images/Pereira.png" alt="Deportivo Pereira Logo"> Deportivo Pereira</td>
+                                <td>20</td>
+                                <td>4</td>
+                                <td>6</td>
+                                <td>10</td>
+                                <td>19</td>
+                                <td>35</td>
+                                <td>-16</td>
+                                <td>18</td>
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td><img src="images/Envigado.png" alt="Envigado FC Logo"> Envigado FC</td>
+                                <td>19</td>
+                                <td>3</td>
+                                <td>8</td>
+                                <td>8</td>
+                                <td>15</td>
+                                <td>22</td>
+                                <td>-7</td>
+                                <td>17</td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td><img src="images/Pasto.jpg" alt="Deportivo Pasto Logo"> Deportivo Pasto</td>
+                                <td>19</td>
+                                <td>3</td>
+                                <td>7</td>
+                                <td>9</td>
+                                <td>23</td>
+                                <td>28</td>
+                                <td>-5</td>
+                                <td>16</td>
+                            </tr>
+                            <tr class="bottom-2-team">
+                                <td>19</td>
+                                <td><img src="images/Boyaca.webp" alt="Boyacá Chicó Logo"> Boyacá Chicó</td>
+                                <td>19</td>
+                                <td>3</td>
+                                <td>7</td>
+                                <td>9</td>
+                                <td>13</td>
+                                <td>27</td>
+                                <td>-14</td>
+                                <td>16</td>
+                            </tr>
+                            <tr class="bottom-2-team">
+                                <td>20</td>
+                                <td><img src="images/Equidad.png" alt="La Equidad Seguros Logo"> La Equidad</td>
+                                <td>20</td>
+                                <td>3</td>
+                                <td>5</td>
+                                <td>12</td>
+                                <td>13</td>
+                                <td>29</td>
+                                <td>-16</td>
+                                <td>14</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="live-matches" class="matches-section live-matches">
+            <div class="container">
+                <h2>Próximos Partidos</h2>
+                <div class="match-grid">
+                    <!-- Upcoming Match Card 1 -->
+                    <div class="match-card">
+                        <div class="match-header">
+                            <span class="match-status upcoming">PROGRAMADO</span>
+                            <span class="match-time">Clausura - Fecha 20</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Boyaca.webp" alt="Boyacá Chicó Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Boyacá Chicó</span>
+                        </div>
+                        <div class="match-score">
+                            <span class="score">vs</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/millonarios.png" alt="Millonarios FC Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Millonarios</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Estadio La Independencia</span>
+                            <span>Liga BetPlay</span>
+                        </div>
+                    </div>
+
+                    <!-- Upcoming Match Card 2 -->
+                    <div class="match-card">
+                        <div class="match-header">
+                            <span class="match-status upcoming">PROGRAMADO</span>
+                            <span class="match-time">Clausura - Fecha 20</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Santafe.png" alt="Independiente Santa Fe Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Independiente Santa Fe</span>
+                        </div>
+                        <div class="match-score">
+                            <span class="score">vs</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Alianza.png" alt="Alianza FC Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Alianza FC</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Estadio El Campín</span>
+                            <span>Liga BetPlay</span>
+                        </div>
+                    </div>
+
+                    <!-- Upcoming Match Card 3 -->
+                    <div class="match-card">
+                        <div class="match-header">
+                            <span class="match-status upcoming">PROGRAMADO</span>
+                            <span class="match-time">Clausura - Fecha 20</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Llaneros.png" alt="Llaneros FC Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Llaneros</span>
+                        </div>
+                        <div class="match-score">
+                            <span class="score">vs</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Envigado.png" alt="Envigado FC Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Envigado</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Estadio Bello Horizonte</span>
+                            <span>Liga BetPlay</span>
+                        </div>
+                    </div>
+
+                    <!-- Upcoming Match Card 4 -->
+                    <div class="match-card">
+                        <div class="match-header">
+                            <span class="match-status upcoming">PROGRAMADO</span>
+                            <span class="match-time">Clausura - Fecha 20</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Aguilas.webp" alt="Águilas Doradas Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Águilas Doradas</span>
+                        </div>
+                        <div class="match-score">
+                            <span class="score">vs</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/tolima.png" alt="Deportes Tolima Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Deportes Tolima</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Estadio Alberto Grisales</span>
+                            <span>Liga BetPlay</span>
+                        </div>
+                    </div>
+
+                    <!-- Upcoming Match Card 5 -->
+                    <div class="match-card">
+                        <div class="match-header">
+                            <span class="match-status upcoming">PROGRAMADO</span>
+                            <span class="match-time">Clausura - Fecha 20</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/UnionMagdalena.png" alt="Unión Magdalena Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Unión Magdalena</span>
+                        </div>
+                        <div class="match-score">
+                            <span class="score">vs</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Fortaleza.png" alt="Fortaleza CEIF Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Fortaleza</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Estadio Sierra Nevada</span>
+                            <span>Liga BetPlay</span>
+                        </div>
+                    </div>
+
+                    <!-- Upcoming Match Card 6 -->
+                    <div class="match-card">
+                        <div class="match-header">
+                            <span class="match-status upcoming">PROGRAMADO</span>
+                            <span class="match-time">Clausura - Fecha 20</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Junior.png" alt="Junior FC Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Junior</span>
+                        </div>
+                        <div class="match-score">
+                            <span class="score">vs</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Nacional.webp" alt="Atlético Nacional Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Atlético Nacional</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Estadio Metropolitano</span>
+                            <span>Liga BetPlay</span>
+                        </div>
+                    </div>
+
+                    <!-- Upcoming Match Card 7 -->
+                    <div class="match-card">
+                        <div class="match-header">
+                            <span class="match-status upcoming">PROGRAMADO</span>
+                            <span class="match-time">Clausura - Fecha 20</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Medellin.png" alt="Independiente Medellín Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Independiente Medellín</span>
+                        </div>
+                        <div class="match-score">
+                            <span class="score">vs</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/America.png" alt="América de Cali Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">América</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Estadio Atanasio Girardot</span>
+                            <span>Liga BetPlay</span>
+                        </div>
+                    </div>
+
+                    <!-- Upcoming Match Card 8 -->
+                    <div class="match-card">
+                        <div class="match-header">
+                            <span class="match-status upcoming">PROGRAMADO</span>
+                            <span class="match-time">Clausura - Fecha 20</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/DeportivoCali.png" alt="Deportivo Cali Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Deportivo Cali</span>
+                        </div>
+                        <div class="match-score">
+                            <span class="score">vs</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Oncecaldas.jpg" alt="Once Caldas Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Once Caldas</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Estadio Palmaseca</span>
+                            <span>Liga BetPlay</span>
+                        </div>
+                    </div>
+
+                    <!-- Upcoming Match Card 9 -->
+                    <div class="match-card">
+                        <div class="match-header">
+                            <span class="match-status upcoming">PROGRAMADO</span>
+                            <span class="match-time">Clausura - Fecha 20</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Pasto.jpg" alt="Deportivo Pasto Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Deportivo Pasto</span>
+                        </div>
+                        <div class="match-score">
+                            <span class="score">vs</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Bucaramanga.jpg" alt="Atlético Bucaramanga Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Atlético Bucaramanga</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Estadio Departamental Libertad</span>
+                            <span>Liga BetPlay</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="recent-results" class="matches-section recent-results">
+            <div class="container">
+                <h2>Resultados Recientes</h2>
+                <div class="match-grid">
+                    <div class="match-card">
+                        <div class="match-header">
+                            <span class="match-status finished">FINALIZADO</span>
+                            <span class="match-time">12 NOV 2025</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/tolima.png" alt="Deportes Tolima Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Deportes Tolima</span>
+                        </div>
+                        <div class="match-score">
+                            <span class="score">3 - 1</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Llaneros.png" alt="Llaneros FC Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Llaneros FC</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Liga BetPlay</span>
+                        </div>
+                    </div>
+                    <div class="match-card">
+                        <div class="match-header">
+                            <span class="match-status finished">FINALIZADO</span>
+                            <span class="match-time">12 NOV 2025</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Pereira.png" alt="Deportivo Pereira Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Deportivo Pereira</span>
+                        </div>
+                        <div class="match-score">
+                            <span class="score">1 - 4</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Medellin.png" alt="Independiente Medellín Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Independiente Medellín</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Liga BetPlay</span>
+                        </div>
+                    </div>
+                    <div class="match-card">
+                        <div class="match-header">
+                            <span class="match-status finished">FINALIZADO</span>
+                            <span class="match-time">06 NOV 2025</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/Boyaca.webp" alt="Boyacá Chicó Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">Boyacá Chicó</span>
+                        </div>
+                        <div class="match-score">
+                            <span class="score">0 - 2</span>
+                        </div>
+                        <div class="team-info">
+                            <img src="images/America.png" alt="América de Cali Logo" class="team-logo" style="width: 40px; height: 40px;">
+                            <span class="team-name">América de Cali</span>
+                        </div>
+                        <div class="match-details">
+                            <span>Liga BetPlay</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="stats-section">
+            <div class="container">
+                <h2>Estadísticas Liga BetPlay</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <h3>Goleadores</h3>
+                        <ul id="top-scorers">
+                            <li><span>1. Hugo Rodallega</span> <span>16 goles</span></li>
+                            <li><span>2. Dayro Moreno</span> <span>11 goles</span></li>
+                            <li><span>3. Gonzalo Lencina</span> <span>10 goles</span></li>
+                            <li><span>4. Edwin Cardona</span> <span>9 goles</span></li>
+                            <li><span>5. Alfredo Morelos</span> <span>8 goles</span></li>
+                        </ul>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Asistencias</h3>
+                        <ul id="top-assists">
+                            <li><span>1. Alfredo Morelos</span> <span>8 asistencias</span></li>
+                            <li><span>2. Edwin Cardona</span> <span>6 asistencias</span></li>
+                            <li><span>3. Bryan Urueña</span> <span>6 asistencias</span></li>
+                            <li><span>4. Santiago Mosquera</span> <span>6 asistencias</span></li>
+                            <li><span>5. Omar Fernández</span> <span>6 asistencias</span></li>
+                        </ul>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Goles y Asistencias</h3>
+                        <ul id="goals-assists">
+                            <li><span>1. Alfredo Morelos</span> <span>16</span></li>
+                            <li><span>2. Edwin Cardona</span> <span>15</span></li>
+                            <li><span>3. Hugo Rodallega</span> <span>16</span></li>
+                            <li><span>4. Dayro Moreno</span> <span>11</span></li>
+                            <li><span>5. Gonzalo Lencina</span> <span>10</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="teams" class="teams-section">
+            <div class="container">
+                <h2>Equipos de la Liga BetPlay</h2>
+                <div class="team-cards-grid">
+                    <div class="team-card" onclick="showTeamMatches('Atlético Nacional')">
+                        <img src="images/Nacional.webp" alt="Atlético Nacional Logo">
+                        <h3>Atlético Nacional</h3>
+                        <p>Medellín, Antioquia</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Millonarios FC')">
+                        <img src="images/millonarios.png" alt="Millonarios FC Logo" style="width: 80px; height: 80px;">
+                        <h3>Millonarios FC</h3>
+                        <p>Bogotá D.C.</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('América de Cali')">
+                        <img src="images/America.png" alt="América de Cali Logo" style="width: 80px; height: 80px;">
+                        <h3>América de Cali</h3>
+                        <p>Cali, Valle del Cauca</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Deportes Tolima')">
+                        <img src="images/tolima.png" alt="Deportes Tolima Logo" style="width: 80px; height: 80px;">
+                        <h3>Deportes Tolima</h3>
+                        <p>Ibagué, Tolima</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Bucaramanga')">
+                        <img src="images/Bucaramanga.jpg" alt="Bucaramanga Logo" style="width: 80px; height: 80px;">
+                        <h3>Bucaramanga</h3>
+                        <p>Bucaramanga, Santander</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Independiente Medellín')">
+                        <img src="images/Medellin.png" alt="Independiente Medellín Logo">
+                        <h3>Independiente Medellín</h3>
+                        <p>Medellín, Antioquia</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Junior FC')">
+                        <img src="images/Junior.png" alt="Junior FC Logo">
+                        <h3>Junior FC</h3>
+                        <p>Barranquilla, Atlántico</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Fortaleza CEIF')">
+                        <img src="images/Fortaleza.png" alt="Fortaleza CEIF Logo">
+                        <h3>Fortaleza CEIF</h3>
+                        <p>Cota, Cundinamarca</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Llaneros FC')">
+                        <img src="images/Llaneros.png" alt="Llaneros FC Logo">
+                        <h3>Llaneros FC</h3>
+                        <p>Villavicencio, Meta</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Águilas Doradas')">
+                        <img src="images/Aguilas.webp" alt="Águilas Doradas Logo">
+                        <h3>Águilas Doradas</h3>
+                        <p>Rionegro, Antioquia</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Alianza FC')">
+                        <img src="images/Alianza.png" alt="Alianza FC Logo">
+                        <h3>Alianza FC</h3>
+                        <p>Valledupar, Cesar</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Independiente Santa Fe')">
+                        <img src="images/Santafe.png" alt="Santa Fe Logo">
+                        <h3>Independiente Santa Fe</h3>
+                        <p>Bogotá D.C.</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Deportivo Pereira')">
+                        <img src="images/Pereira.png" alt="Deportivo Pereira Logo">
+                        <h3>Deportivo Pereira</h3>
+                        <p>Pereira, Risaralda</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Once Caldas')">
+                        <img src="images/Oncecaldas.jpg" alt="Once Caldas Logo">
+                        <h3>Once Caldas</h3>
+                        <p>Manizales, Caldas</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Unión Magdalena')">
+                        <img src="images/UnionMagdalena.png" alt="Unión Magdalena Logo">
+                        <h3>Unión Magdalena</h3>
+                        <p>Santa Marta, Magdalena</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Envigado FC')">
+                        <img src="images/Envigado.png" alt="Envigado FC Logo" style="width: 80px; height: 80px;">
+                        <h3>Envigado FC</h3>
+                        <p>Envigado, Antioquia</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Deportivo Pasto')">
+                        <img src="images/Pasto.jpg" alt="Deportivo Pasto Logo">
+                        <h3>Deportivo Pasto</h3>
+                        <p>Pasto, Nariño</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('Boyacá Chicó FC')">
+                        <img src="images/Boyaca.webp" alt="Boyacá Chicó FC Logo" style="width: 80px; height: 80px;">
+                        <h3>Boyacá Chicó FC</h3>
+                        <p>Tunja, Boyacá</p>
+                    </div>
+                    <div class="team-card" onclick="showTeamMatches('La Equidad Seguros')">
+                        <img src="images/Equidad.png" alt="La Equidad Seguros Logo">
+                        <h3>La Equidad Seguros</h3>
+                        <p>Bogotá D.C.</p>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team-detail" class="team-detail-section" style="display: none;">
+            <div class="container">
+                <button class="back-button" onclick="hideTeamDetail()">← Volver a Equipos</button>
+                <div class="team-header">
+                    <img id="team-detail-logo" src="" alt="Team Logo">
+                    <h2 id="team-detail-name"></h2>
+                </div>
+                <h3>Últimos 5 Partidos</h3>
+                <ul id="team-detail-matches">
+                    <!-- Matches will be loaded here by JavaScript -->
+                </ul>
+            </div>
+        </section>
+
+        <section id="match-detail" class="match-detail-section" style="display: none;">
+            <div class="container">
+                <button class="back-button" onclick="hideMatchDetail()">← Volver a Partidos del Equipo</button>
+                <h2 id="match-detail-title">Detalles del Partido</h2>
+                <div class="match-detail-content">
+                    <p><strong>Fecha:</strong> <span id="match-date"></span></p>
+                    <p><strong>Hora:</strong> <span id="match-time"></span></p>
+                    <p><strong>Estadio:</strong> <span id="match-stadium"></span></p>
+                    <p><strong>Competición:</strong> <span id="match-competition"></span></p>
+                    <div class="teams-score">
+                        <div class="team-score-info">
+                            <img id="home-team-logo" src="" alt="Home Team Logo">
+                            <span id="home-team-name"></span>
+                            <span id="home-team-score" class="score"></span>
+                        </div>
+                        <span class="vs">vs</span>
+                        <div class="team-score-info">
+                            <span id="away-team-score" class="score"></span>
+                            <span id="away-team-name"></span>
+                            <img id="away-team-logo" src="" alt="Away Team Logo">
+                        </div>
+                    </div>
+                    <h3>Eventos del Partido</h3>
+                    <ul id="match-events">
+                        <!-- Events will be loaded here by JavaScript -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 GOLazo Colombia. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#"><img src="https://via.placeholder.com/24" alt="Twitter"></a>
+                <a href="#"><img src="https://via.placeholder.com/24" alt="Instagram"></a>
+                <a href="#"><img src="https://via.placeholder.com/24" alt="Facebook"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
