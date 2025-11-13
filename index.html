@@ -624,105 +624,115 @@
             </div>
         </section>
 
+        <!-- Match Details Modal -->
+        <div id="matchDetailsModal" class="modal">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <div id="modal-match-details">
+                    <!-- Match details will be loaded here by JavaScript -->
+                </div>
+            </div>
+        </div>
+
         <section id="teams" class="teams-section">
             <div class="container">
                 <h2>Equipos de la Liga BetPlay</h2>
                 <div class="team-cards-grid">
-                    <div class="team-card" onclick="showTeamMatches('Atlético Nacional')">
+                    <div class="team-card">
                         <img src="images/Nacional.webp" alt="Atlético Nacional Logo">
                         <h3>Atlético Nacional</h3>
                         <p>Medellín, Antioquia</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Millonarios FC')">
+                    <div class="team-card">
                         <img src="images/millonarios.png" alt="Millonarios FC Logo" style="width: 80px; height: 80px;">
                         <h3>Millonarios FC</h3>
                         <p>Bogotá D.C.</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('América de Cali')">
+                    <div class="team-card">
                         <img src="images/America.png" alt="América de Cali Logo" style="width: 80px; height: 80px;">
                         <h3>América de Cali</h3>
                         <p>Cali, Valle del Cauca</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Deportes Tolima')">
+                    <div class="team-card">
                         <img src="images/tolima.png" alt="Deportes Tolima Logo" style="width: 80px; height: 80px;">
                         <h3>Deportes Tolima</h3>
                         <p>Ibagué, Tolima</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Bucaramanga')">
+                    <div class="team-card">
                         <img src="images/Bucaramanga.jpg" alt="Bucaramanga Logo" style="width: 80px; height: 80px;">
                         <h3>Bucaramanga</h3>
                         <p>Bucaramanga, Santander</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Independiente Medellín')">
+                    <div class="team-card">
                         <img src="images/Medellin.png" alt="Independiente Medellín Logo">
                         <h3>Independiente Medellín</h3>
                         <p>Medellín, Antioquia</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Junior FC')">
+                    <div class="team-card">
                         <img src="images/Junior.png" alt="Junior FC Logo">
                         <h3>Junior FC</h3>
                         <p>Barranquilla, Atlántico</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Fortaleza CEIF')">
+                    <div class="team-card">
                         <img src="images/Fortaleza.png" alt="Fortaleza CEIF Logo">
                         <h3>Fortaleza CEIF</h3>
                         <p>Cota, Cundinamarca</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Llaneros FC')">
+                    <div class="team-card">
                         <img src="images/Llaneros.png" alt="Llaneros FC Logo">
                         <h3>Llaneros FC</h3>
                         <p>Villavicencio, Meta</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Águilas Doradas')">
+                    <div class="team-card">
                         <img src="images/Aguilas.webp" alt="Águilas Doradas Logo">
                         <h3>Águilas Doradas</h3>
                         <p>Rionegro, Antioquia</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Alianza FC')">
+                    <div class="team-card">
                         <img src="images/Alianza.png" alt="Alianza FC Logo">
                         <h3>Alianza FC</h3>
                         <p>Valledupar, Cesar</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Independiente Santa Fe')">
+                    <div class="team-card">
                         <img src="images/Santafe.png" alt="Santa Fe Logo">
                         <h3>Independiente Santa Fe</h3>
                         <p>Bogotá D.C.</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Deportivo Pereira')">
+                    <div class="team-card">
                         <img src="images/Pereira.png" alt="Deportivo Pereira Logo">
                         <h3>Deportivo Pereira</h3>
                         <p>Pereira, Risaralda</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Once Caldas')">
+                    <div class="team-card">
                         <img src="images/Oncecaldas.jpg" alt="Once Caldas Logo">
                         <h3>Once Caldas</h3>
                         <p>Manizales, Caldas</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Unión Magdalena')">
+                    <div class="team-card">
                         <img src="images/UnionMagdalena.png" alt="Unión Magdalena Logo">
                         <h3>Unión Magdalena</h3>
                         <p>Santa Marta, Magdalena</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Envigado FC')">
+                    <div class="team-card">
                         <img src="images/Envigado.png" alt="Envigado FC Logo" style="width: 80px; height: 80px;">
                         <h3>Envigado FC</h3>
                         <p>Envigado, Antioquia</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Deportivo Pasto')">
+                    <div class="team-card">
                         <img src="images/Pasto.jpg" alt="Deportivo Pasto Logo">
                         <h3>Deportivo Pasto</h3>
                         <p>Pasto, Nariño</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('Boyacá Chicó FC')">
+                    <div class="team-card">
                         <img src="images/Boyaca.webp" alt="Boyacá Chicó FC Logo" style="width: 80px; height: 80px;">
                         <h3>Boyacá Chicó FC</h3>
                         <p>Tunja, Boyacá</p>
                     </div>
-                    <div class="team-card" onclick="showTeamMatches('La Equidad Seguros')">
+                    <div class="team-card">
                         <img src="images/Equidad.png" alt="La Equidad Seguros Logo">
                         <h3>La Equidad Seguros</h3>
                         <p>Bogotá D.C.</p>
-                </div>
+                    </div>
                 </div>
             </div>
         </section>
